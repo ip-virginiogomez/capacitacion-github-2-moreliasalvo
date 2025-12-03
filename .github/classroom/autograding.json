@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test Sumar",
+      "setup": "pip install pytest",
+      "run": "pytest tests/test_ejemplos.py::test_sumar -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test Restar",
+      "setup": "",
+      "run": "pytest tests/test_ejemplos.py::test_restar -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test Multiplicar",
+      "setup": "",
+      "run": "pytest tests/test_ejemplos.py::test_multiplicar -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test Dividir",
+      "setup": "",
+      "run": "pytest tests/test_ejemplos.py::test_dividir -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
